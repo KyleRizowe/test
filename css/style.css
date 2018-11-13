@@ -1,0 +1,62 @@
+@font-face
+{
+	src:url('../font/PatrickHand-Regular.ttf');
+	font-family: PatrickHand-Regular;
+}
+@font-face
+{
+	src:url('../font/Oswald-Regular.ttf');
+	font-family: Oswald-Regular;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+#menus ul li
+{
+	text-decoration: none;
+    list-style: none;
+    width: 12%;
+    background-color: cadetblue;
+    border-right: 1px solid #1cc5be;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+    font-family: PatrickHand-Regular;
+    float: left;
+    position: relative;
+}
+#menus li a
+{
+	 color: #fff;
+	 text-decoration: none;
+	 display: block;
+}
+#menus li a:hover {
+    background-color: #10a8ad;
+    color: #fff;
+}
+
+ul#menus2 li
+{
+	float: none;
+    width: 165px;
+    background-color: #e0e0fb;
+    border-bottom: 1px solid #1cbfb0;
+    border-right: none;
+}
+ul#menus2 li a
+{
+	color: #000;
+}
+#menus ul ul
+{
+	position: absolute;
+	display: none;
+}
+#menus li:hover > ul
+{
+	display: block;
+}
